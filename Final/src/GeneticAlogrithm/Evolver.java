@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Evolver {
 	public List<Individual> individualGroup = new ArrayList<>();
-	public int individual_size =200;
+	public int individual_size =1000;
 	public int chromosomeLength=1000;
 	double crossover_rate=0.9;
 	double mutation_rate=0.2;
@@ -16,7 +16,7 @@ public class Evolver {
 	Maze maze = new Maze();
 	
 	//Read maze
-	//Create new individuals of size 200
+	//Create new individuals of size 1000
 	
 	public void init() {
 		maze.readDataFile();
