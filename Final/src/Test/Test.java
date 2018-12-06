@@ -46,7 +46,7 @@ class Test {
 	void testDistance() {
 		Evolver testcalculatescore =new Evolver();
 		testcalculatescore.init();
-		assertEquals(testcalculatescore.distance(testcalculatescore.individualGroup.get(0).chromosome),testcalculatescore.distance(testcalculatescore.individualGroup.get(1).chromosome),0.7);
+		assertEquals(testcalculatescore.distance(testcalculatescore.individualGroup.get(0).chromosome),testcalculatescore.distance(testcalculatescore.individualGroup.get(1).chromosome),0.4);
 	}
 
 	@org.junit.jupiter.api.Test
