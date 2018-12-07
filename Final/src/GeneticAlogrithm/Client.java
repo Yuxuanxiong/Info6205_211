@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Client {
 	// main function
-	// Create 200 individuals
+	// Create 1000 individuals
 	// Calculate the fitness then find the best one
 	// If individuals reached the max generations but still don't find the exit
 	// All of the actions will be stoped
