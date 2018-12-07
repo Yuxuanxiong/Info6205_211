@@ -33,7 +33,7 @@ public class Evolver {
 		}		
 	}
 	
-	// Calculate individuals distance to maze exit
+	// Calculate individuals fitness by calculating the distance to exit point
 	public double distance(int[] chromosome) {
 		double score=0;
 		int x= maze.Xstart;
