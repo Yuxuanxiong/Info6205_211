@@ -15,7 +15,7 @@ public class Evolver {
 	public Individual fittest =new Individual(chromosomeLength);
 	Maze maze = new Maze();
 	
-	//Read maze
+	//Read maze file
 	//Create new individuals of size 1000
 	
 	public void init() {
